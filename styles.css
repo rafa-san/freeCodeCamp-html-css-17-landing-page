@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+ #header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+}
+
+.logo-e-titulo {
+  height: 60px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+ #header-img {
+  width: 65px; 
+}
+
+.logo-e-titulo h1 {
+  font-size: 2.6em;
+  height: calc(100% - 10px)
+}
+
+#nav-bar {
+  width: 80%;
+}
+
+/* #nav-bar ul {
+  border: 1px solid coral;
+} */
+
+#nav-bar ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+}
+
+/* MAIN */
+main {
+  margin-top: 120px;
+}
+
+.img-fundo {
+  background-image: url("img-fundo-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+}
+
+/* .container-bicicletas {
+  border: 1px solid black;
+} */
+
+.modelos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bike {
+  width: 100%;
+}
+
+.bike img {
+  max-width: 600px;
+  width: 100%;
+}
+
+.img-oficina,
+.img-bike-sob-medida {
+  height: auto;
+  max-width: 600px;
+  width: 100%;
+}
