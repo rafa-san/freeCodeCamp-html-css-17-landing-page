@@ -12,13 +12,13 @@
   <header id="header">
     <div class="logo-e-titulo">
       <img src="logo.png" id="header-img" />
-      <h1>Bicicletas Fixas</h1>
+      <h1>Fixed Gear Bikes</h1>
     </div>
     <nav id="nav-bar">
       <ul>
-        <li><a href="#" class="nav-link">Modelos</a></li>
+        <li><a href="#" class="nav-link">Nossas Bikes</a></li>
+        <li><a href="#" class="nav-link">Quadros Sob Medida</a></li>
         <li><a href="#" class="nav-link">Oficina</a></li>
-        <li><a href="#" class="nav-link">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -29,33 +29,64 @@
     </div>
 
     <section class="container-bicicletas">
-      <h2>Modelos</h2>
-      <div class="modelos">
-        <div class="bike">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione quia nostrum alias, vero necessitatibus aliquid. Commodi consequatur nisi maxime?</p>
-          <img src="modelo-01.png" alt="#" />
+      <h2 class="subtitulo">Nossas Bikes</h2>
+      <div class="bicicletas">
+        <div class="modelo">
+          <p>Bonfire</p>
+          <img src="modelo-01.png" alt="#" class="img-bikes" />
         </div>
-        <div class="bike">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione quia nostrum alias, vero necessitatibus aliquid. Commodi consequatur nisi maxime?</p>
-          <img src="modelo-02.png" alt="#" />
+        <div class="modelo">
+          <p>Froyo</p>
+          <img src="modelo-02.png" alt="#" class="img-bikes" />
         </div>
-        <div class="bike">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione quia nostrum alias, vero necessitatibus aliquid. Commodi consequatur nisi maxime?</p>
-          <img src="modelo-03.jpg" alt="#" />
+        <div class="modelo">
+          <p>Darth Black</p>
+          <img src="modelo-03.jpg" alt="#" class="img-bikes" />
         </div>
       </div> 
     </section>
 
-    <section>
-      <h2>Produzimos bikes sob medida</h2>
-      <img src="bikes-sob-medida.jpg" alt="#" class="img-bike-sob-medida" />
-      <form id="form"></form>
+    <section class="container-quadro-sob-medida">
+      <h2 class="subtitulo">Quadros Sob Medida</h2>
+      <img src="quadro-sob-medida.jpg" alt="#" class="img-quadro-sob-medida" />
+      <p>Quer solicitar um orçamento?</p>
+      <p>Informe seu e-mail e entraremos em contato.</p>
+      <form action="#" method="get" id="form">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" type="email" placeholder="Digite aqui o seu e-mail" />
+      </form>
     </section>
 
-    <section>
+    <section class="container-oficina">
+      <h2 class="subtitulo">Nossa Oficina</h2>
+      <img src="#" alt="#" id="img-oficina">
+    </section>
+
+    <section class="container-video-e-texto">
+      <h2 class="subtitulo">Bike Fixa é...</h2>
+      <div class="texto">
+        <p>Leveza</p>
+        <p>Velocidade</p>
+        <p>Agilidade</p>
+        <p>Menos Manutenção</p>
+      </div>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/Atkp8mklOh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
   </main>
+
+  <footer>
+    <div>
+      <p>Crédito das Imagens e das Bikes</p>
+    </div>
+    <div>
+      <p>Desenvolvido por Rafa Santana</p>
+      <p>Colocar ícones do linkedIn e GitHub</p>
+    </div>
+    <div>
+      <!-- inserir emoji coração -->
+      <p>I love Bikes</p>
+    </div>
+  </footer>
 </body>
 
 </html>
