@@ -37,12 +37,13 @@
   width: 80%;
 }
 
-/* #nav-bar ul {
-  border: 1px solid coral;
-} */
+#nav-bar ul {
+  padding: 6px 0;
+}
 
 #nav-bar ul li {
   list-style-type: none;
+  padding: 6px 0;
   text-align: center;
 }
 
@@ -51,10 +52,8 @@
 }
 
 /* MAIN */
-/* main {
-  margin-top: 120px;
-} */
 
+/* IMG FUNDO */
 .img-fundo {
   background-image: url("img-fundo-2.jpg");
   background-position: center;
@@ -63,28 +62,68 @@
   width: 100%;
 }
 
-/* .container-bicicletas {
+/* NOSSAS BIKES */
+.container-bicicletas,
+.container-quadro-sob-medida,
+.container-oficina,
+.container-video-e-texto {
   border: 1px solid black;
-} */
+  margin: 16px auto;
+  padding: 8px;
+  width: 90%;
+}
+
+.subtitulo {
+  text-align: center;
+}
 
 .bicicletas {
-  width: 100%;
+  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
 
 .modelo {
-  width: 100%;
+  margin: auto;
+  width: 80%;
 }
 
-.modelo img {
+figure {
+  border: 2px solid yellow;
+}
+
+figure img {
+  border: 1px solid blue;
+  margin: 8px 0;
   max-width: 600px;
   width: 100%;
 }
 
-.img-oficina,
-.img-bike-sob-medida {
+.img-descricao {
+  text-align: center;
+}
+
+/* QUADROS SOB MEDIDA */ 
+.img-quadro-sob-medida,
+.img-oficina {
   height: auto;
   max-width: 600px;
+  width: 100%;
+}
+
+.contato,
+#form {
+  border: 1px solid red;
+  padding: 16px;
+  text-align: center;
+}
+
+/* OFICINA */
+
+
+/* TEXTO E VÍDEO */
+iframe {
+  height: 315px;
+  max-width: 560px;
   width: 100%;
 }
