@@ -1,3 +1,9 @@
+:root {
+  --cor-fonte-1: #5a728d;
+  --teste: #cedae7;
+  --teste2: #d6dbe1;
+}
+
 * {
   box-sizing: border-box;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,7 +23,7 @@
 }
 
 .logo-e-titulo {
-  height: 60px;
+  padding: 8px;
   width: 80%;
   display: flex;
   align-items: center;
@@ -30,25 +36,23 @@
 }
 
 .logo-e-titulo h1 {
+  color: var(--cor-fonte-1);
   font-size: 2.6em;
   height: calc(100% - 10px);
 }
 
 #nav-bar {
-
   width: 80%;
 }
 
 #nav-bar ul {
-  border: 1px solid blue;
-  padding: 6px 0;
+  padding: 8px;
   display: flex;
   flex-direction: column;
 }
 
 #nav-bar ul li {
   list-style-type: none;
-  padding: 6px 0;
   text-align: center;
 }
 
@@ -84,42 +88,57 @@
 }
 
 .bicicletas {
+  margin-top: 8px;
   display: flex;
   flex-direction: column;
 }
 
 .modelo {
-  margin: auto;
+  margin: 8px auto;
   width: 80%;
 }
 
 figure {
-  margin: 4px 0;
+  margin: 4px auto;
 }
 
 figure img {
-  margin-top: 24px;
+  display: block;
+  margin: auto;
   max-width: 600px;
   width: 100%;
 }
 
+.bike-03 {
+  padding: 8px;
+}
+
 .img-descricao {
-  margin-bottom: 16px;
+  margin: 0 auto 16px;
+  max-width: 600px;
   padding: 4px 2px;
   text-align: center;
 }
 
 /* QUADROS SOB MEDIDA */ 
+.img-e-texto {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
 .img-quadro-sob-medida,
 .img-oficina {
+  display: block;
   height: auto;
-  max-width: 600px;
+  margin: 12px auto 0;
+  max-width: 650px;
   width: 100%;
 }
 
-.img-e-texto {
-  display: flex;
-  flex-direction: column;
+.texto-e-formulario {
+  margin: 8px auto;
+  max-width: 650px;
 }
 
 .texto,
@@ -130,41 +149,134 @@ figure img {
 }
 
 /* OFICINA */
+.img-e-texto .texto-oficina {
+  margin: auto;
+  max-width: 650px;
+  padding: 0;
+}
 
+.texto-oficina p {
+  margin: 16px auto;
+  padding: 8px;
+  width: 100%;
+}
 
 /* TEXTO E VÍDEO */
+.video-e-texto {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-e-texto .texto {
+  margin: auto;
+  width: 560px;
+}
+
 iframe {
   height: 315px;
+  margin: 8px auto;
   max-width: 560px;
   width: 100%;
 }
 
 /* FOOTER */
 footer {
-  border: 1px solid red;
+  background-color: var(--cor-fonte-1);
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .texto {
+  border: 1px solid white;
 }
 
 /* LAYOUT RESPONSIVO */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* HEADER */
   #header {
     flex-direction: row;
   }
 
   .logo-e-titulo {
-    border: 1px solid red;
-    margin-left: 16px;
+    height: 80px;
+    align-items: center;
     justify-content: flex-start;
   }
 
-  .logo-e-titulo h1 {
-    border: 1px solid green;
-    text-align: right;
+  #header-img {
+    margin-left: 24px;
+  }
+
+  #nav-bar {
+    height: 80px;
   }
 
   #nav-bar ul {
+    height: 100%;
+    align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  #nav-bar ul li {
+    margin-top: 16px;
+  }
+
+  /* MAIN */
+
+  /* NOSSAS BIKES */
+  .bicicletas {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .bicicletas::after {
+    content: "";
+    width: 50%;
+  }
+
+  .modelo {
+    margin: 16px;
+    flex: 46%;
+  }
+
+  .bike-03 {
+    padding: 8px;
+  }
+
+  /* QUADROS SOB MEDIDA */
+  .img-e-texto {
+    border: 1px solid black;
+    flex-direction: row;
+  }
+
+  .invertido {
+    flex-direction: row-reverse;
+  }
+
+  .img-quadro-sob-medida,
+  .img-oficina {
+    border: 1px solid red;
+    max-width: 50%;
+  }
+
+  .texto-e-formulario {
+    background-color: yellow;
+  }
+
+  .texto,
+  #form {
+    border: 1px solid red;
+  }
+
+  /* TEXTO E VÍDEO */
+  .video-e-texto {
+    border: 1px solid blue;
+  }
+
+  .video-e-texto {
+    flex-direction: row-reverse;
   }
 }
