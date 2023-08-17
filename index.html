@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing Page</title>
   <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -43,7 +44,7 @@
         </div>
         <div class="modelo">
           <figure>
-            <img src="modelo-03.jpg" alt="Bicicleta com quadro na cor preta" class="img-bikes" />
+            <img src="modelo-03.jpg" alt="Bicicleta com quadro na cor preta" class="img-bikes bike-03" />
             <figcaption class="img-descricao">Darth Black</figcaption>
           </figure>
         </div>
@@ -54,28 +55,29 @@
       <h2 class="subtitulo">Quadros Sob Medida</h2>
       <div class="img-e-texto">
         <img src="quadro-sob-medida.jpg" alt="Imagem de um quadro de bicicleta preto no chão" class="img-quadro-sob-medida" />
-        <div class="texto">
-          <p>Fabricamos quadros de bicicletas de alta qualidade e sob medida. Além disso, você pode também customizar sua bike escolhendo as cores do quadro, garfo e aro.</p>
+        <div class="texto-e-formulario">
+          <div class="texto">
+            <p>Fabricamos quadros de bicicletas de alta qualidade e sob medida. Além disso, você pode também customizar sua bike escolhendo as cores do quadro, garfo e aro.</p>
+          </div>
+          <div class="texto">
+            <p>Quer solicitar um orçamento?</p>
+            <p>Informe seu e-mail e entraremos em contato.</p>
+          </div>
+          <form action="#" method="get" id="form">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" type="email" placeholder="Digite aqui o seu e-mail" />
+          </form>
         </div>
-        <div class="texto">
-          <p>Quer solicitar um orçamento?</p>
-          <p>Informe seu e-mail e entraremos em contato.</p>
-        </div>
-        <form action="#" method="get" id="form">
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" type="email" placeholder="Digite aqui o seu e-mail" />
-        </form>
       </div>
     </section>
 
     <section class="container-oficina">
       <h2 class="subtitulo">Nossa Oficina</h2>
-      <div class="img-e-texto">
+      <div class="img-e-texto invertido">
         <img src="oficina.jpg" alt="Imagem com várias ferramentas para manutenção de bicicletas" class="img-oficina">
-        <div class="texto">
+        <div class="texto texto-oficina">
           <p>Nossos mecânicos, além de altamente qualificados, são também apaixonados por bicicletas.</p>
-          <p>Oferecemos serviços de conserto, revisão e reparos.</p>
-          <p>Trabalhamos somente com quadros e componentes de bicicletas fixas/single speed.</p>
+          <p>Oferecemos serviços de conserto, revisão e reparos para todos os tipos de bicicletas.</p>
         </div>
       </div>
     </section>
@@ -83,28 +85,42 @@
     <section class="container-video-e-texto">
       <h2 class="subtitulo">Bike Fixa é...</h2>
       <div class="video-e-texto">
-        </div>
         <div class="texto">
-          <p>Leveza</p>
-          <p>Velocidade</p>
           <p>Agilidade</p>
+          <p>Leveza</p>
+          <p>Liberdade</p>
           <p>Menos Manutenção</p>
+          <p>Velocidade</p>
         </div>
         <iframe src="https://www.youtube.com/embed/Atkp8mklOh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
     </section>
   </main>
 
   <footer>
     <div class="texto">
-      <p>Crédito das Imagens e das Bikes</p>
+      <p>Crédito das Imagens</p>
+      <p>
+        Primeira Imagem: Foto de <a href="https://unsplash.com/pt-br/@tom607?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Tom Austin</a> na <a href="https://unsplash.com/pt-br/fotografias/tYPYimorhr4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+      </p>
+      <p>
+        Segunda, Terceira e Quarta Imagem: <a href="https://www.nirve.com/belmont.html" target="_blank">Nirve Belmont</a>
+      </p>
+      <p>Quinta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov</a> na <a href="https://unsplash.com/pt-br/fotografias/eBMNA5GbHck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+      </p>
+      <p>
+        Sexta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov</a> na <a href="https://unsplash.com/pt-br/fotografias/Q-j4syZXqGg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+  
+      </p>
     </div>
     <div class="texto">
       <p>Desenvolvido por Rafa Santana</p>
-      <p>Colocar ícones do linkedIn e GitHub</p>
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><i class="fa brands fa-linkedin"></i></a>
     </div>
     <div class="texto">
       <!-- inserir emoji coração -->
-      <p>I love Bikes</p>
+      <p>I <img src="heart.png"> Bikes</p>
     </div>
   </footer>
 </body>
