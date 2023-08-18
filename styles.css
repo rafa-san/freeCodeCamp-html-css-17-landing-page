@@ -121,61 +121,47 @@ figure img {
 }
 
 /* QUADROS SOB MEDIDA */ 
-.img-e-texto {
+.img-e-texto,
+.video-e-texto {
+  border: 1px solid blue;
   margin-top: 8px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .img-quadro-sob-medida,
 .img-oficina {
   display: block;
   height: auto;
-  margin: 12px auto 0;
+  /* margin: 12px auto 0; */
   max-width: 650px;
   width: 100%;
 }
 
-.texto-e-formulario {
-  margin: 8px auto;
+.texto-e-formulario,
+.img-e-texto,
+.video-e-texto {
+  background-color: yellow;
   max-width: 650px;
 }
 
 .texto,
 #form {
+  border: 1px solid coral;
+  line-height: 1.8em;
   margin: 8px 0;
   padding: 16px;
   text-align: center;
 }
 
 /* OFICINA */
-.img-e-texto .texto-oficina {
-  margin: auto;
-  max-width: 650px;
-  padding: 0;
-}
-
-.texto-oficina p {
-  margin: 16px auto;
-  padding: 8px;
-  width: 100%;
-}
 
 /* TEXTO E VÍDEO */
-.video-e-texto {
-  margin-top: 8px;
-  display: flex;
-  flex-direction: column;
-}
-
-.video-e-texto .texto {
-  margin: auto;
-  width: 560px;
-}
 
 iframe {
   height: 315px;
-  margin: 8px auto;
+  /* margin: 8px auto; */
   max-width: 560px;
   width: 100%;
 }
