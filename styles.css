@@ -13,6 +13,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* HEADER */
  #header {
   background-color: white;
@@ -93,7 +97,7 @@
 }
 
 .subtitulo {
-  color: var(--cor-5);
+  color: var(--cor-2);
   margin: 8px 0;
   padding: 8px;
   text-align: center;
@@ -126,7 +130,7 @@ figure img {
 }
 
 .img-descricao {
-  color: var(--cor-4);
+  color: var(--cor-2);
   font-size: 1.02em;
   margin: 0 auto 16px;
   max-width: 600px;
@@ -204,12 +208,14 @@ footer .texto-credito {
 
 .texto-credito .credito {
   padding: 4px 2px;
+  text-align: center;
 }
 
 footer .texto {
   margin: 8px;
   padding: 16px 8px;
   justify-content: flex-end;
+  text-align: center;
 }
 
 .texto img {
