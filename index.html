@@ -5,14 +5,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing Page</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/global-styles.css" />
+  <link rel="stylesheet" href="style/header.css" />
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="stylesheet" href="style/footer.css" />
+  <link rel="stylesheet" href="style/media-queries.css" />
 </head>
 
 <body>
   <header id="header">
     <div class="logo-e-titulo">
-      <img src="logo.png" id="header-img" />
+      <img src="images/logo.png" id="header-img" />
       <h1>Fixed Gear Bikes</h1>
     </div>
     <nav id="nav-bar">
@@ -26,54 +29,54 @@
 
   <main>
     <div class="img-fundo"></div>
-
+    
     <section class="container-bicicletas">
-      <h2 id="nossas-bikes" class="subtitulo">Nossas Bikes</h2>
+      <h2 class="subtitulo">Nossas Bikes</h2>
       <div class="bicicletas">
         <div class="modelo">
           <figure>
-            <img src="modelo-01.png" alt="Bicicleta com quadro na cor laranja" class="img-bikes" />
+            <img src="images/modelo-01.png" alt="Bicicleta com quadro na cor laranja" class="img-bikes" />
             <figcaption class="img-descricao">Bonfire</figcaption>
           </figure>
         </div>
         <div class="modelo">
           <figure>
-            <img src="modelo-02.png" alt="Bicicleta com quadro na cor branca" class="img-bikes" />
+            <img src="images/modelo-02.png" alt="Bicicleta com quadro na cor branca" class="img-bikes" />
             <figcaption class="img-descricao">Froyo</figcaption>
           </figure>
         </div>
         <div class="modelo">
           <figure>
-            <img src="modelo-03.jpg" alt="Bicicleta com quadro na cor preta" class="img-bikes bike-03" />
+            <img src="images/modelo-03.jpg" alt="Bicicleta com quadro na cor preta" class="img-bikes bike-03" />
             <figcaption class="img-descricao">Darth Black</figcaption>
           </figure>
         </div>
-      </div> 
+      </div>
     </section>
 
     <section class="container-quadro-sob-medida">
-      <h2 id="quadros-sob-medida" class="subtitulo">Quadros Sob Medida</h2>
+      <h2 class="subtitulo">Quadros Sob Medida</h2>
       <div class="img-e-texto">
         <div class="img-quadro-sob-medida">
-          <img src="quadro-sob-medida.jpg" alt="Imagem de um quadro de bicicleta preto no chão" />
+          <img src="images/quadro-sob-medida.jpg" alt="Imagem de um quadro de bicicleta preto no chão" />
         </div>
         <div class="texto-formulario">
           <p class="texto">Fabricamos quadros de bicicletas de alta qualidade e sob medida. Além disso, você pode também customizar sua bike escolhendo as cores do quadro, garfo e aro.</p>
-          <p class="texto">Quer solicitar um orçamento? Informe seu e-mail e entraremos em contato.</p>
-          <form action="https://www.freecodecamp.com/email-submit" method="get" id="form" class="formulario">
+          <p class="texto">Quer ficar por dentro das novidades? Cadastre seu e-mail e receba nossa newsletter.</p>
+          <form action="mensagem-formulario.html" method="get" id="form" class="formulario">
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" type="email" placeholder="Digite aqui o seu e-mail" />
-            <input type="submit" id="submit" value="Enviar" />
+            <input type="email" id="email" name="email" type="email" />
+            <input type="submit" id="submit" value="Cadastrar" />
           </form>
         </div>
       </div>
     </section>
 
     <section class="container-oficina">
-      <h2 id="oficina" class="subtitulo">Oficina</h2>
+      <h2 class="subtitulo">Oficina</h2>
       <div class="img-e-texto invertido">
         <div class="img-oficina">
-          <img src="oficina.jpg" alt="Imagem com várias ferramentas para manutenção de bicicletas" />
+          <img src="images/oficina.jpg" alt="Imagem com várias ferramentas para manutenção de bicicletas" />
         </div>
         <div class="texto-formulario">
           <p class="texto">Nossos mecânicos, além de profissionais altamente qualificados, são também apaixonados por bicicletas.</p>
@@ -98,28 +101,31 @@
     <div class="texto-credito">
       <p class="destaque">Crédito das Imagens</p>
       <p class="credito">
-        Primeira Imagem: Foto de <a href="https://unsplash.com/pt-br/@tom607?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Tom Austin</a> na <a href="https://unsplash.com/pt-br/fotografias/tYPYimorhr4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+        Primeira Imagem: Foto de <a href="https://unsplash.com/pt-br/@tom607?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Tom Austin<i class="fa-solid fa-link"></i></a>
       </p>
       <p class="credito">
-        Segunda, Terceira e Quarta Imagem: <a href="https://www.nirve.com/belmont.html" target="_blank">Nirve Belmont</a>
-      </p>
-      <p class="credito">Quinta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov</a> na <a href="https://unsplash.com/pt-br/fotografias/eBMNA5GbHck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+        Segunda, Terceira e Quarta Imagem: <a href="https://www.nirve.com/belmont.html" target="_blank">Nirve Belmont<i class="fa-solid fa-link"></i></a>
       </p>
       <p class="credito">
-        Sexta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov</a> na <a href="https://unsplash.com/pt-br/fotografias/Q-j4syZXqGg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+        Quinta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov<i class="fa-solid fa-link"></i></a>
+      </p>
+      <p class="credito">
+        Sexta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov<i class="fa-solid fa-link"></i></a>
       </p>
     </div>
     <div class="texto">
-      <p>Desenvolvido por Rafa Santana</p>
+      <p>Desenvolvido por: Rafa Santana</p>
       <div>
         <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
         <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><i class="fa brands fa-linkedin"></i></a>
       </div>
     </div>
     <div class="texto">
-      <p><img src="heart.png"> Bikes</p>
+      <p><i class="fa-solid fa-heart"></i> Bikes</p>
     </div>
   </footer>
+
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
