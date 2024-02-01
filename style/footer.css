@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--cor-2);
+  padding: 16px 8px;
+}
+
+footer .texto-credito {
+  margin: 6px;
+  padding: 16px 8px;
+}
+
+.texto-credito .destaque {
+  color: var(--cor-1);
+  font-size: 1.05em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.texto-credito .credito {
+  color: var(--cor-1);
+  margin: 6px 0;
+  padding: 4px 2px;
+  text-align: center;
+}
+
+.texto-credito .credito a {
+  color: var(--cor-3);
+  font-weight: 700;
+}
+
+.fa-link {
+  color: var(--cor-3);
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+footer .texto {
+  color: var(--cor-1);
+  font-size: 1.05em;
+  font-weight: 700;
+  margin: 8px;
+  padding: 16px 8px;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.fa-github,
+.fa-linkedin {
+  color: var(--cor-1);
+  font-size: 1.4em;
+  margin: 8px 6px;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover {
+  color: var(--cor-3);
+}
+
+.fa-heart {
+  color: red;
+}

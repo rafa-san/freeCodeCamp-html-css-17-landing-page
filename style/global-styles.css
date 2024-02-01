@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+:root {
+  --cor-1: #223040;
+  --cor-2: #A0BBD9;
+  --cor-3: #5A728D;
+  --cor-4: #40331C;
+  --cor-5: #8C7A5A;
+}
+
+* {
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}

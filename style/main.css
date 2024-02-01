@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+
+/* IMG FUNDO */
+.img-fundo {
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  margin-top: 24px;
+  width: 100%;
+}
+
+
+/* NOSSAS BIKES */
+.container-bicicletas,
+.container-quadro-sob-medida,
+.container-oficina,
+.container-video-e-texto {
+  margin: 24px auto;
+  padding: 8px;
+  width: 90%;
+}
+
+.container-quadro-sob-medida,
+.container-oficina,
+.container-video-e-texto {
+  margin: 32px auto 48px;
+  padding: 8px;
+  width: 90%;
+}
+
+.subtitulo {
+  color: var(--cor-2);
+  font-size: 1.8em;
+  margin: 16px auto;
+  padding: 8px;
+  text-align: center;
+}
+
+.bicicletas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.modelo {
+  margin: 8px auto;
+  width: 65%;
+}
+
+.modelo:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition-timing-function: ease-in-out;
+}
+
+figure {
+  margin: 4px auto;
+}
+
+figure img {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.bike-03 {
+  padding: 8px;
+}
+
+.img-descricao {
+  color: var(--cor-2);
+  font-size: 1.02em;
+  margin: 0 auto 16px;
+  max-width: 600px;
+  padding: 4px 2px;
+  text-align: center;
+}
+
+
+/* QUADROS SOB MEDIDA */ 
+.img-e-texto,
+.video-e-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 16px auto 0;
+  max-width: 680px;
+}
+
+.img-quadro-sob-medida img,
+.img-oficina img {
+  height: auto;
+  width: 100%;
+}
+
+.texto-formulario {
+  line-height: 1.8em;
+  margin: 8px 0;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.texto-formulario .texto,
+.texto-formulario .formulario {
+  color: var(--cor-1);
+  font-size: 1.05em;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.formulario #email {
+  height: 30px;
+  outline: none;
+  padding: 8px;
+  width: 75%;
+}
+
+.formulario #submit {
+  display: block;
+  background-color: var(--cor-3);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.0em;
+  margin: 16px auto;
+  padding: 8px;
+  width: 130px;
+}
+
+.formulario #submit:hover {
+  background-color: var(--cor-2);
+  border: 2px solid transparent;
+  color: #fff;
+}
+
+
+/* OFICINA */
+
+/* VÍDEO E TEXTO */
+iframe {
+  height: 315px;
+  margin: auto;
+  max-width: 560px;
+  width: 100%;
+}
+
+.video-e-texto .texto {
+  margin: auto;
+  max-width: 560px;
+}
