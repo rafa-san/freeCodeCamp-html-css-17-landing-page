@@ -1,131 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style/global-styles.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+    <link rel="stylesheet" href="style/media-queries.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page</title>
-  <link rel="stylesheet" href="style/global-styles.css" />
-  <link rel="stylesheet" href="style/header.css" />
-  <link rel="stylesheet" href="style/main.css" />
-  <link rel="stylesheet" href="style/footer.css" />
-  <link rel="stylesheet" href="style/media-queries.css" />
-</head>
+  <body>
+    <header id="header">
+      <div class="logo-e-titulo">
+        <img src="images/logo.png" id="header-img" />
+        <h1>Fixed Gear Bikes</h1>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#nossas-bikes" class="nav-link">Nossas Bikes</a></li>
+          <li><a href="#quadros-sob-medida" class="nav-link">Quadros Sob Medida</a></li>
+          <li><a href="#oficina" class="nav-link">Oficina</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header id="header">
-    <div class="logo-e-titulo">
-      <img src="images/logo.png" id="header-img" />
-      <h1>Fixed Gear Bikes</h1>
-    </div>
-    <nav id="nav-bar">
-      <ul>
-        <li><a href="#nossas-bikes" class="nav-link">Nossas Bikes</a></li>
-        <li><a href="#quadros-sob-medida" class="nav-link">Quadros Sob Medida</a></li>
-        <li><a href="#oficina" class="nav-link">Oficina</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <div class="img-fundo"></div>
-    
-    <section class="container-bicicletas">
-      <h2 class="subtitulo">Nossas Bikes</h2>
-      <div class="bicicletas">
-        <div class="modelo">
-          <figure>
-            <img src="images/modelo-01.png" alt="Bicicleta com quadro na cor laranja" class="img-bikes" />
-            <figcaption class="img-descricao">Bonfire</figcaption>
-          </figure>
+    <main>
+      <div class="img-fundo"></div>
+      
+      <section class="container-bicicletas">
+        <h2 class="subtitulo">Nossas Bikes</h2>
+        <div class="bicicletas">
+          <div class="modelo">
+            <figure>
+              <img src="images/modelo-01.png" alt="Bicicleta com quadro na cor laranja" class="img-bikes" />
+              <figcaption class="img-descricao">Bonfire</figcaption>
+            </figure>
+          </div>
+          <div class="modelo">
+            <figure>
+              <img src="images/modelo-02.png" alt="Bicicleta com quadro na cor branca" class="img-bikes" />
+              <figcaption class="img-descricao">Froyo</figcaption>
+            </figure>
+          </div>
+          <div class="modelo">
+            <figure>
+              <img src="images/modelo-03.jpg" alt="Bicicleta com quadro na cor preta" class="img-bikes bike-03" />
+              <figcaption class="img-descricao">Darth Black</figcaption>
+            </figure>
+          </div>
         </div>
-        <div class="modelo">
-          <figure>
-            <img src="images/modelo-02.png" alt="Bicicleta com quadro na cor branca" class="img-bikes" />
-            <figcaption class="img-descricao">Froyo</figcaption>
-          </figure>
+      </section>
+
+      <section class="container-quadro-sob-medida">
+        <h2 class="subtitulo">Quadros Sob Medida</h2>
+        <div class="img-e-texto">
+          <div class="img-quadro-sob-medida">
+            <img src="images/quadro-sob-medida.jpg" alt="Imagem de um quadro de bicicleta preto no chão" />
+          </div>
+          <div class="texto-formulario">
+            <p class="texto">Fabricamos quadros de bicicletas fixas de alta qualidade e sob medida. Além disso, você pode também customizar sua bike escolhendo as cores do quadro, garfo e aro.</p>
+            <p class="texto">Quer ficar por dentro das novidades? Cadastre seu e-mail e receba nossa newsletter.</p>
+            <form action="mensagem-formulario.html" method="get" id="form" class="formulario">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" type="email" />
+              <input type="submit" id="submit" value="Cadastrar" />
+            </form>
+          </div>
         </div>
-        <div class="modelo">
-          <figure>
-            <img src="images/modelo-03.jpg" alt="Bicicleta com quadro na cor preta" class="img-bikes bike-03" />
-            <figcaption class="img-descricao">Darth Black</figcaption>
-          </figure>
+      </section>
+
+      <section class="container-oficina">
+        <h2 class="subtitulo">Oficina</h2>
+        <div class="img-e-texto invertido">
+          <div class="img-oficina">
+            <img src="images/oficina.jpg" alt="Imagem com várias ferramentas para manutenção de bicicletas" />
+          </div>
+          <div class="texto-formulario">
+            <p class="texto">Nossos mecânicos, além de profissionais altamente qualificados, são também apaixonados por bicicletas.</p>
+            <p class="texto">Oferecemos serviços de conserto, revisão e reparos para todos os tipos de bicicletas.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-video-e-texto">
+        <h2 class="subtitulo"><em>"Fixies"</em></h2>
+        <div class="video-e-texto">
+          <iframe src="https://www.youtube.com/embed/Atkp8mklOh0" title="YouTube video player" id="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="texto-formulario">
+            <p class="texto">A popularidade das bikes fixas, também conhecidas como fixed gear bikes, ou fixies, está ligada a sua simplicidade mecânica, estética minimalista e uma conexão direta com a experiência de pedalar.</p>
+            <p class="texto">Uma fixed gear bike é sinônimo de agilidade, leveza, menos manutenção e velocidade.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="texto-credito">
+        <p class="destaque">Crédito das Imagens</p>
+        <p class="credito">
+          Primeira Imagem: Foto de <a href="https://unsplash.com/pt-br/@tom607?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Tom Austin<i class="fa-solid fa-link"></i></a>
+        </p>
+        <p class="credito">
+          Segunda, Terceira e Quarta Imagem: <a href="https://www.nirve.com/belmont.html" target="_blank">Nirve Belmont<i class="fa-solid fa-link"></i></a>
+        </p>
+        <p class="credito">
+          Quinta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov<i class="fa-solid fa-link"></i></a>
+        </p>
+        <p class="credito">
+          Sexta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov<i class="fa-solid fa-link"></i></a>
+        </p>
+      </div>
+      <div class="texto">
+        <p>Desenvolvido por: Rafa Santana</p>
+        <div>
+          <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><i class="fa brands fa-linkedin"></i></a>
         </div>
       </div>
-    </section>
-
-    <section class="container-quadro-sob-medida">
-      <h2 class="subtitulo">Quadros Sob Medida</h2>
-      <div class="img-e-texto">
-        <div class="img-quadro-sob-medida">
-          <img src="images/quadro-sob-medida.jpg" alt="Imagem de um quadro de bicicleta preto no chão" />
-        </div>
-        <div class="texto-formulario">
-          <p class="texto">Fabricamos quadros de bicicletas fixas de alta qualidade e sob medida. Além disso, você pode também customizar sua bike escolhendo as cores do quadro, garfo e aro.</p>
-          <p class="texto">Quer ficar por dentro das novidades? Cadastre seu e-mail e receba nossa newsletter.</p>
-          <form action="mensagem-formulario.html" method="get" id="form" class="formulario">
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" type="email" />
-            <input type="submit" id="submit" value="Cadastrar" />
-          </form>
-        </div>
+      <div class="texto">
+        <p><i class="fa-solid fa-heart"></i> Bikes</p>
       </div>
-    </section>
+    </footer>
 
-    <section class="container-oficina">
-      <h2 class="subtitulo">Oficina</h2>
-      <div class="img-e-texto invertido">
-        <div class="img-oficina">
-          <img src="images/oficina.jpg" alt="Imagem com várias ferramentas para manutenção de bicicletas" />
-        </div>
-        <div class="texto-formulario">
-          <p class="texto">Nossos mecânicos, além de profissionais altamente qualificados, são também apaixonados por bicicletas.</p>
-          <p class="texto">Oferecemos serviços de conserto, revisão e reparos para todos os tipos de bicicletas.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-video-e-texto">
-      <h2 class="subtitulo"><em>"Fixies"</em></h2>
-      <div class="video-e-texto">
-        <iframe src="https://www.youtube.com/embed/Atkp8mklOh0" title="YouTube video player" id="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="texto-formulario">
-          <p class="texto">A popularidade das bikes fixas, também conhecidas como fixed gear bikes, ou fixies, está ligada a sua simplicidade mecânica, estética minimalista e uma conexão direta com a experiência de pedalar.</p>
-          <p class="texto">Uma fixed gear bike é sinônimo de agilidade, leveza, menos manutenção e velocidade.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="texto-credito">
-      <p class="destaque">Crédito das Imagens</p>
-      <p class="credito">
-        Primeira Imagem: Foto de <a href="https://unsplash.com/pt-br/@tom607?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Tom Austin<i class="fa-solid fa-link"></i></a>
-      </p>
-      <p class="credito">
-        Segunda, Terceira e Quarta Imagem: <a href="https://www.nirve.com/belmont.html" target="_blank">Nirve Belmont<i class="fa-solid fa-link"></i></a>
-      </p>
-      <p class="credito">
-        Quinta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov<i class="fa-solid fa-link"></i></a>
-      </p>
-      <p class="credito">
-        Sexta Imagem: Foto de <a href="https://unsplash.com/pt-br/@tonchik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Anton Savinov<i class="fa-solid fa-link"></i></a>
-      </p>
-    </div>
-    <div class="texto">
-      <p>Desenvolvido por: Rafa Santana</p>
-      <div>
-        <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><i class="fa brands fa-linkedin"></i></a>
-      </div>
-    </div>
-    <div class="texto">
-      <p><i class="fa-solid fa-heart"></i> Bikes</p>
-    </div>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  </body>
 </html>
