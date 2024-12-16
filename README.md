@@ -6,13 +6,13 @@
 Criar uma landing page para divulgar um produto ou serviço de sua escolha.
 
 ## 2️⃣ Descrição
-Este é o quarto desafio no formato **Certification Project** da trilha **Responsive Web Design Certification**.
+Este é o quarto desafio no formato **Certification Project** da trilha **Responsive Web Design Certification**
 
-Os **Certification Projects** têm como objetivo consolidar os conhecimentos adquiridos durante os cursos anteriores. Eles exigem:
+Os **Certification Project** exigem que o desenvolvimento seja realizado de forma independente, sem mentoria direta.
 
-- Desenvolvimento independente, sem mentoria direta.
-- Cumprimento de critérios específicos relacionados à estrutura do HTML.
-- Liberdade criativa total no design (CSS) para que o projeto reflita o estilo pessoal do desenvolvedor.
+Para que o projeto seja aprovado, é necessário cumprir critérios específicos estabelecidos pela plataforma, principalmente relacionados à estrutura HTML. No entanto, há total liberdade para criar o design (CSS), permitindo dar um toque pessoal à página.
+
+O principal objetivo desse formato é consolidar os conhecimentos adquiridos ao longo dos cursos anteriores, proporcionando uma experiência prática bastante significativa.
 
 **Aviso Importante:**
 Seguindo as diretrizes do **freeCodeCamp**, este projeto foi desenvolvido de forma honesta e independente, sem plágio ou cópia direta do exemplo fornecido. Todo o processo envolveu pesquisas, tentativas e erros, valorizando meu esforço pessoal.
@@ -49,7 +49,7 @@ Acredito ter criado uma página funcional e visualmente atraente, e isso me deix
 </div>
 
 ## 5️⃣ Créditos
-Agradeço ao freeCodeCamp por oferecer cursos gratuitos de altíssima qualidade, que não apenas ampliaram meus conhecimentos, mas também contribuíram muito para a construção do meu portfólio.
+Agradeço ao **freeCodeCamp** por oferecer cursos gratuitos de altíssima qualidade, que não apenas ampliaram meus conhecimentos, mas também contribuíram muito para a construção do meu portfólio.
 - <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp 🔗</a>
 
 Tutoriais consultados: 
